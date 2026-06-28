@@ -358,7 +358,8 @@ TweenService:Create(textLabel, TweenInfo.new(1), {
     TextTransparency = 0
 }):Play()
 
-local message Load "Rx0 ON TOP 👑🔱🗿..."
+local message = "Rx0 ON TOP 👑🔱🗿..."
+
 for i = 1, #message do
     textLabel.Text = string.sub(message, 1, i)
     task.wait(0.05)
