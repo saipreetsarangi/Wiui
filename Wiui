@@ -3800,10 +3800,10 @@ Scripts:CreateButton({
 -- Chat Spammer 
 Scripts:CreateSection("Chat Spammer")
 Scripts:CreateButton({
-    Name = "Aj Spammer",
+    Name = "FORBID Spammer(BEST)",
     Callback = function()
     ButtonPSound()
-loadstring(game:HttpGet("https://pastebin.com/raw/bPnmeDGz"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/forbidtherobloxscripter/forbidspam/refs/heads/main/obfuscated_script-1781365858107.lua.txt"))()
     end
     })
 
